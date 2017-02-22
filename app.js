@@ -49,7 +49,11 @@ const addTasks = () => {
 
 const addSubtask = (taskID, episodeTitle) => {
     wunderlistAPI.http.subtasks.create({
-        'task_id': taskData,
+        'task_id': taskID,
         'title': episodeTitle
+    })
+    .done(subTask => {
+        console.log(`Added ${subTask.title}`)
+        console.log(subTask)
     })
 }
