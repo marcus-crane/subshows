@@ -1,0 +1,15 @@
+{
+  "name": "subshows",
+  "version": "1.0.0",
+  "description": "Add TV show episodes to Wunderlist subtasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcus Crane <marcus@thingsima.de>",
+  "license": "MIT",
+  "dependencies": {
+    "imdb-api": "^2.2.1",
+    "wunderlist": "^0.1.3"
+  }
+}
